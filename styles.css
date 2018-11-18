@@ -35,8 +35,9 @@ body {
    border: 2px solid #ffcb9a;
   background-color: #2c3531;
   align-items: center;
-  justify-content: center }
-}
+  justify-content: center
+ }
+
 
 p {
   margin: 0;
@@ -45,4 +46,18 @@ p {
 
 .display {
   display: block;
+}
+
+#display {
+  display: flex;
+  height: 60px;
+  width: 70px;
+  margin: 4px;
+  color: #d1e8e2;
+  font-size: 2em;  
+   border: 2px solid #ffcb9a;
+  background-color: #2c3531;
+  align-items: center;
+  justify-content: center
+  
 }
