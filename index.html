@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<title>Drum Kit</title>
@@ -9,7 +10,8 @@
   <div id="drum-machine">
       
     <div class="column"> 
-      <div class="row">
+      <div class="pads">
+          <div class="row">
         <div id="clap" class="drum-pad">
         <p>Q</p> 
         <audio class="clip" id="Q" src="sounds/clap.wav"></audio>
@@ -23,7 +25,8 @@
           <audio class="clip" id="E" src="sounds/kick.wav"></audio>
         </div>
       </div>
-      <div class="row">
+
+ <div class="row">
         <div id="openhat" class="drum-pad">
         <p>A</p> 
         <audio class="clip" id="A" src="sounds/openhat.wav"></audio>
@@ -37,7 +40,8 @@
           <audio class="clip" id="D" src="sounds/ride.wav"></audio>
         </div>
       </div>
-      <div class="row">
+
+ <div class="row">
         <div id="snare" class="drum-pad">
           <p>Z</p> 
           <audio class="clip" id="Z" src="sounds/snare.wav"></audio>
@@ -52,10 +56,11 @@
         </div>
         </div>
       </div>
+   </div>
 
-      <div class="column">
-
-       <p id="display">test</p>
+      <div class="column controls">
+        <p id="display">
+        </p>       
     </div>
 
 
